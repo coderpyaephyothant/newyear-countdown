@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    font-family: "Poppins",sans-serif;
+    background-image: url('images/sky.jpg');
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.countdown-container{
+    display: flex;
+    flex-direction: row;
+}
+
+h1{
+    font-size: 4rem;
+    color: #fff;
+    margin-top: 7rem;
+    font-weight: normal;
+    letter-spacing: 5px;
+}
+
+.big-text{
+    font-size: 5rem;
+    margin: 2rem 2rem;
+    color: #fff;
+}
+
+.cdt{
+    text-align: center;
+    margin: 0 1rem;
+}
+
+.cdt span{
+    color: #fff;
+    font-size: 2rem;
+    letter-spacing: 5px;
+}
+
+.todayDate{
+    display: flex;
+    padding: 0px 20px;
+    justify-content: end;
+    background-color: #fff;
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+}
+
+.todayDate span{
+    margin-left: 20px;
+}
+
+.top{
+    background-color: #fff;
+    padding: 0px 20px;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}
